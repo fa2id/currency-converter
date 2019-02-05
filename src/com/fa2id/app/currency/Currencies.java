@@ -58,27 +58,26 @@ public class Currencies {
      * @param currencyId is the currency id which has to be 3 characters like "USD".
      * @param currencyName is the currency name, and it can have spaces and numbers
      * @param valueInUSD is the equivalent value in US Dollar currency.
-     * @throws Exception if any of the given argument is not as expected.
-     * @throws Exception if the database has already the currency because each currency will be added once.
+     * @throws RuntimeException if any of the given argument is not as expected.
+     * @throws RuntimeException if the database has already the currency because each currency will be added once.
      */
-    public void addToDataBase(final String currencyId, final String currencyName, final double valueInUSD)
-            throws Exception {
+    public void addToDataBase(final String currencyId, final String currencyName, final double valueInUSD) {
         if (currencyId == null || currencyId.length() != 3) {
-            throw new Exception("Bad currencyId (Null or not 3 characters). currencyId must be 3 characters! " +
+            throw new RuntimeException("Bad currencyId (Null or not 3 characters). currencyId must be 3 characters! " +
                     "currencyId= " + currencyId);
         }
         if (currencyName == null || currencyName.isEmpty()) {
-            throw new Exception("Bad currencyName (Null or empty)! currencyName= " + currencyName);
+            throw new RuntimeException("Bad currencyName (Null or empty)! currencyName= " + currencyName);
         }
         if (Double.compare(valueInUSD, 0.0) < 0) {
-            throw new Exception("Bad currencyName (Null or empty)! currencyName= " + currencyName);
+            throw new RuntimeException("Bad currencyName (Null or empty)! currencyName= " + currencyName);
         }
         String currencyIdUpperCase = currencyId.toUpperCase();
         if (currenciesDatabase.containsKey(currencyIdUpperCase)) {
-            throw new Exception("Currency " + currencyIdUpperCase + " already exists! " +
+            throw new RuntimeException("Currency " + currencyIdUpperCase + " already exists! " +
                     "You can only add new currencies.");
         }
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
+        DecimalFormat decimalFormat = new DecimalFormat("#.######");
         double valueInUsdToSave = Double.valueOf(decimalFormat.format(valueInUSD));
         Currency currency = new Currency(currencyIdUpperCase, currencyName, valueInUsdToSave);
         currenciesDatabase.put(currencyIdUpperCase, currency);
@@ -89,16 +88,16 @@ public class Currencies {
      * Returns the Currency object using the currencyId which is the key in our database.
      * @param currencyId This is the currency id which must be three characters like "USD"
      * @return the Currency object if there is any.
-     * @throws Exception if any of the given argument is not as expected.
-     * @throws Exception if there is no such a currency in database.
+     * @throws RuntimeException if any of the given argument is not as expected.
+     * @throws RuntimeException if there is no such a currency in database.
      */
-    public Currency getCurrency(final String currencyId) throws Exception {
+    public Currency getCurrency(final String currencyId) {
         if (currencyId == null || currencyId.length() != 3) {
-            throw new Exception("Bad currencyId (Null or not 3 characters). currencyId must be 3 characters!");
+            throw new RuntimeException("Bad currencyId (Null or not 3 characters). currencyId must be 3 characters!");
         }
         String currencyIdUpperCase = currencyId.toUpperCase();
         if (!currenciesDatabase.containsKey(currencyIdUpperCase))
-            throw new Exception("The currency " + currencyIdUpperCase + " does not exist!");
+            throw new RuntimeException("The currency " + currencyIdUpperCase + " does not exist!");
         return currenciesDatabase.get(currencyIdUpperCase);
     }
 

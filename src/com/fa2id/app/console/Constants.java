@@ -1,6 +1,8 @@
 package com.fa2id.app.console;
 
 /**
+ * This a class for having constants. These are the constants which will be printed to the user console.
+ *
  * @author farid
  * www.fa2id.com
  */
@@ -9,7 +11,7 @@ class Constants {
     final static String LINE_SEPARATOR_TEXT = "=====================================================";
     final static String TITLE_TEXT = "=================CURRENCY CONVERTER==================";
     final static String END_TEXT = "=======================FINISH========================";
-    final static String PROMPT_MENU_TEXT = "Please, write and option number and press ENTER...";
+    final static String PROMPT_MENU_TEXT = "Please, write an option number and press ENTER...";
     final static String PROMPT_TO_CURRENCY_TEXT = "Please, write currency ID (e.g. CAD) and press ENTER "
             + "(CONVERT TO THIS CURRENCY)...\"";
     final static String PROMPT_AMOUNT_TEXT = "Please, write the amount that you want to convert " +

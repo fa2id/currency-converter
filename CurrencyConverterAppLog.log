@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808008</millis>
+  <sequence>0</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>CONFIG</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Configuration done.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808042</millis>
+  <sequence>1</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Program started.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808045</millis>
+  <sequence>2</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Application started.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808067</millis>
+  <sequence>3</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Database instantiated.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808068</millis>
+  <sequence>4</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for EUR Euro 1.1432141429</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808081</millis>
+  <sequence>5</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='EUR', name='Euro', valueInUSD=1.143214}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808081</millis>
+  <sequence>6</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for GBP British Pound 1.304085721</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808082</millis>
+  <sequence>7</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='GBP', name='British Pound', valueInUSD=1.304086}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808082</millis>
+  <sequence>8</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for INR Indian Rupee 0.0139365799</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808082</millis>
+  <sequence>9</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='INR', name='Indian Rupee', valueInUSD=0.013937}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808083</millis>
+  <sequence>10</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for AUD Australian Dollar 0.7260128366</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808083</millis>
+  <sequence>11</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='AUD', name='Australian Dollar', valueInUSD=0.726013}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808084</millis>
+  <sequence>12</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for CAD Canadian Dollar 0.7629964066</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808084</millis>
+  <sequence>13</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='CAD', name='Canadian Dollar', valueInUSD=0.762996}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808085</millis>
+  <sequence>14</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for SGD Singapore Dollar 0.7399898257</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808085</millis>
+  <sequence>15</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='SGD', name='Singapore Dollar', valueInUSD=0.73999}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808085</millis>
+  <sequence>16</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for CHF Swiss Franc 1.0017808798</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808086</millis>
+  <sequence>17</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='CHF', name='Swiss Franc', valueInUSD=1.001781}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808086</millis>
+  <sequence>18</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for MYR Malaysian Ringgit 0.2446167601</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808087</millis>
+  <sequence>19</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='MYR', name='Malaysian Ringgit', valueInUSD=0.244617}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808087</millis>
+  <sequence>20</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for JPY Japanese Yen 0.0091007998</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808088</millis>
+  <sequence>21</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='JPY', name='Japanese Yen', valueInUSD=0.009101}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808088</millis>
+  <sequence>22</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for CNY Chinese Yuan Renminbi 0.1482719123</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808088</millis>
+  <sequence>23</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='CNY', name='Chinese Yuan Renminbi', valueInUSD=0.148272}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808090</millis>
+  <sequence>24</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for NZD New Zealand Dollar 0.6898567435</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808090</millis>
+  <sequence>25</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='NZD', name='New Zealand Dollar', valueInUSD=0.689857}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808090</millis>
+  <sequence>26</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for THB Thai Baht 0.0319764646</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808090</millis>
+  <sequence>27</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='THB', name='Thai Baht', valueInUSD=0.031976}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808092</millis>
+  <sequence>28</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for HUF Hungarian Forint 0.0036030083</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808093</millis>
+  <sequence>29</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='HUF', name='Hungarian Forint', valueInUSD=0.003603}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808093</millis>
+  <sequence>30</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for AED Emirati Dirham 0.2722940776</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>31</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='AED', name='Emirati Dirham', valueInUSD=0.272294}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>32</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for HKD Hong Kong Dollar 0.1274433364</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>33</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='HKD', name='Hong Kong Dollar', valueInUSD=0.127443}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>34</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for MXN Mexican Peso 0.0523908296</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>35</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='MXN', name='Mexican Peso', valueInUSD=0.052391}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>36</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for ZAR South African Rand 0.0745003928</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808094</millis>
+  <sequence>37</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='ZAR', name='South African Rand', valueInUSD=0.0745}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808095</millis>
+  <sequence>38</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for PHP Philippine Peso 0.0190966071</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808095</millis>
+  <sequence>39</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='PHP', name='Philippine Peso', valueInUSD=0.019097}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808095</millis>
+  <sequence>40</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for SEK Swedish Krona 0.1097893944</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808095</millis>
+  <sequence>41</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='SEK', name='Swedish Krona', valueInUSD=0.109789}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808096</millis>
+  <sequence>42</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for IDR Indonesian Rupiah 7.16504E-5</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808096</millis>
+  <sequence>43</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='IDR', name='Indonesian Rupiah', valueInUSD=7.2E-5}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808097</millis>
+  <sequence>44</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for SAR Saudi Arabian Riyal 0.2666666667</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808097</millis>
+  <sequence>45</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='SAR', name='Saudi Arabian Riyal', valueInUSD=0.266667}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808097</millis>
+  <sequence>46</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for BRL Brazilian Real 0.2726606893</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808098</millis>
+  <sequence>47</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='BRL', name='Brazilian Real', valueInUSD=0.272661}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808098</millis>
+  <sequence>48</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for TRY Turkish Lira 0.1916121412</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808099</millis>
+  <sequence>49</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='TRY', name='Turkish Lira', valueInUSD=0.191612}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808100</millis>
+  <sequence>50</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for KES Kenyan Shilling 0.0099924391</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808100</millis>
+  <sequence>51</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='KES', name='Kenyan Shilling', valueInUSD=0.009992}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808100</millis>
+  <sequence>52</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for KRW South Korean Won 8.913224E-4</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808100</millis>
+  <sequence>53</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='KRW', name='South Korean Won', valueInUSD=8.91E-4}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808100</millis>
+  <sequence>54</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for EGP Egyptian Pound 0.0565813246</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808101</millis>
+  <sequence>55</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='EGP', name='Egyptian Pound', valueInUSD=0.056581}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808101</millis>
+  <sequence>56</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for IQD Iraqi Dinar 8.378012E-4</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808101</millis>
+  <sequence>57</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='IQD', name='Iraqi Dinar', valueInUSD=8.38E-4}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808102</millis>
+  <sequence>58</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for NOK Norwegian Krone 0.1182048755</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808102</millis>
+  <sequence>59</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='NOK', name='Norwegian Krone', valueInUSD=0.118205}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808102</millis>
+  <sequence>60</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for KWD Kuwaiti Dinar 3.2953916635</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808103</millis>
+  <sequence>61</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='KWD', name='Kuwaiti Dinar', valueInUSD=3.295392}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808103</millis>
+  <sequence>62</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for RUB Russian Ruble 0.0152569764</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808104</millis>
+  <sequence>63</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='RUB', name='Russian Ruble', valueInUSD=0.015257}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808104</millis>
+  <sequence>64</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for DKK Danish Krone 0.1531373358</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808104</millis>
+  <sequence>65</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='DKK', name='Danish Krone', valueInUSD=0.153137}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808104</millis>
+  <sequence>66</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for PKR Pakistani Rupee 0.0071767925</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808105</millis>
+  <sequence>67</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='PKR', name='Pakistani Rupee', valueInUSD=0.007177}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808105</millis>
+  <sequence>68</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for ILS Israeli Shekel 0.2763508703</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808105</millis>
+  <sequence>69</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='ILS', name='Israeli Shekel', valueInUSD=0.276351}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808106</millis>
+  <sequence>70</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for PLN Polish Zloty 0.266789331</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808106</millis>
+  <sequence>71</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='PLN', name='Polish Zloty', valueInUSD=0.266789}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808107</millis>
+  <sequence>72</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for QAR Qatari Riyal 0.2747252747</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808107</millis>
+  <sequence>73</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='QAR', name='Qatari Riyal', valueInUSD=0.274725}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808107</millis>
+  <sequence>74</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for XAU Gold Ounce 1314.3870572832</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808107</millis>
+  <sequence>75</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='XAU', name='Gold Ounce', valueInUSD=1314.387057}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808108</millis>
+  <sequence>76</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for OMR Omani Rial 2.6007802341</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808108</millis>
+  <sequence>77</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='OMR', name='Omani Rial', valueInUSD=2.60078}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808108</millis>
+  <sequence>78</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for COP Colombian Peso 3.239188E-4</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808114</millis>
+  <sequence>79</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='COP', name='Colombian Peso', valueInUSD=3.24E-4}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808114</millis>
+  <sequence>80</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for CLP Chilean Peso 0.0015323636</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808115</millis>
+  <sequence>81</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='CLP', name='Chilean Peso', valueInUSD=0.001532}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808115</millis>
+  <sequence>82</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Adding Data to database for TWD Taiwan New Dollar 0.0324876122</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808115</millis>
+  <sequence>83</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Data added to database. Data= Currency{id='TWD', name='Taiwan New Dollar', valueInUSD=0.032488}</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808116</millis>
+  <sequence>84</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Application initialized.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808116</millis>
+  <sequence>85</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Running title.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:08</date>
+  <millis>1549372808117</millis>
+  <sequence>86</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Running menu.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:13</date>
+  <millis>1549372813593</millis>
+  <sequence>87</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Running printing currencies.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:16</date>
+  <millis>1549372816661</millis>
+  <sequence>88</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Running converting.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:21</date>
+  <millis>1549372821511</millis>
+  <sequence>89</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Converting 5.0 from usd to cad</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:21</date>
+  <millis>1549372821512</millis>
+  <sequence>90</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Converted.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:32</date>
+  <millis>1549372832859</millis>
+  <sequence>91</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Running ending.</message>
+</record>
+<record>
+  <date>2019-02-05T05:20:32</date>
+  <millis>1549372832859</millis>
+  <sequence>92</sequence>
+  <logger>com.fa2id.app.log.MyLogger</logger>
+  <level>INFO</level>
+  <class>com.fa2id.app.log.MyLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>Application ended.</message>
+</record>
+</log>

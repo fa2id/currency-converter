@@ -1,5 +1,7 @@
 package com.fa2id.app.currency;
 
+import com.fa2id.app.log.MyLogger;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -45,8 +47,10 @@ public class Currencies {
     public static Currencies getInstance() {
         if (currenciesInstance == null) {
             synchronized (Currencies.class) {
-                if (currenciesInstance == null)
+                if (currenciesInstance == null) {
                     currenciesInstance = new Currencies();
+                    MyLogger.log("Database instantiated.");
+                }
             }
         }
         return currenciesInstance;
@@ -62,6 +66,7 @@ public class Currencies {
      * @throws RuntimeException if the database has already the currency because each currency will be added once.
      */
     public void addToDataBase(final String currencyId, final String currencyName, final double valueInUSD) {
+        MyLogger.log("Adding Data to database for " + currencyId + " " + currencyName + " " + valueInUSD);
         if (currencyId == null || currencyId.length() != 3) {
             throw new RuntimeException("Bad currencyId (Null or not 3 characters). currencyId must be 3 characters! " +
                     "currencyId= " + currencyId);
@@ -81,6 +86,8 @@ public class Currencies {
         double valueInUsdToSave = Double.valueOf(decimalFormat.format(valueInUSD));
         Currency currency = new Currency(currencyIdUpperCase, currencyName, valueInUsdToSave);
         currenciesDatabase.put(currencyIdUpperCase, currency);
+        if (currenciesDatabase.containsKey(currencyIdUpperCase))
+            MyLogger.log("Data added to database. Data= " + currenciesDatabase.get(currencyIdUpperCase));
     }
 
 

@@ -3,6 +3,7 @@ package com.fa2id.app.console;
 import com.fa2id.app.currency.Currencies;
 import com.fa2id.app.currency.CurrencyConverter;
 import com.fa2id.app.currency.CurrencyConverterFactory;
+import com.fa2id.app.log.MyLogger;
 import com.fa2id.app.user.UserInteraction;
 import com.fa2id.app.user.UserInteractionFactory;
 
@@ -33,6 +34,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      */
     @Override
     public void runTitle() {
+        MyLogger.log("Running title.");
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         userInteraction.printOutput(Constants.TITLE_TEXT);
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
@@ -45,6 +47,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      */
     @Override
     public void runMenu() {
+        MyLogger.log("Running menu.");
         while (true) {
             userInteraction.printOutput(Constants.MENU_TITLE_TEXT);
             userInteraction.printOutput(Constants.MENU_TEXT);
@@ -72,6 +75,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      */
     @Override
     public void runPrint(final String text) {
+        MyLogger.log("Running print.");
         userInteraction.printOutput(text);
     }
 
@@ -81,6 +85,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      */
     @Override
     public void runEnding() {
+        MyLogger.log("Running ending.");
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         userInteraction.printOutput(Constants.END_TEXT);
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
@@ -91,6 +96,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      * This method is for printing all the currencies. It is one of the options in the menu.
      */
     private void printCurrencies() {
+        MyLogger.log("Running printing currencies.");
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         Currencies currencies = Currencies.getInstance();
         currencies.getDatabase().forEach((currency) -> userInteraction.printOutput(currency.toString()));
@@ -103,6 +109,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
      * options in the menu.
      */
     private void convertAmount() {
+        MyLogger.log("Running converting.");
         userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         userInteraction.printOutput(Constants.PROMPT_FROM_CURRENCY_TEXT);
         String fromCurrencyId = userInteraction.getInput();
@@ -116,7 +123,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
                 if (amountString.isEmpty() || amountString.contains(" ") || amountString.contains("-"))
                     continue;
                 final double amountFromString = Double.valueOf(amountString);
-                final DecimalFormat decimalFormat = new DecimalFormat("#.##");
+                final DecimalFormat decimalFormat = new DecimalFormat("#.######");
                 amount = Double.valueOf(decimalFormat.format(amountFromString));
             } catch (Exception e) {
                 userInteraction.printOutput(Constants.WRONG_INPUT_TEXT);
@@ -132,6 +139,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
                     + "= " + String.valueOf(convertedAmount) + " " + toCurrencyId);
         } catch (Exception e) {
             System.out.println("EXCEPTION: " + e.getMessage());
+            MyLogger.log("EXCEPTION: " + e.getMessage());
         } finally {
             userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         }

@@ -2,6 +2,7 @@ package com.fa2id.app.application;
 
 import com.fa2id.app.console.ConsoleRunner;
 import com.fa2id.app.console.ConsoleRunnerFactory;
+import com.fa2id.app.log.MyLogger;
 
 /**
  * This is a Currency Converter Application. This class helps to initialize and run the application.
@@ -40,14 +41,17 @@ public class CurrencyConverterApplication implements Application {
      */
     @Override
     public void start(final String fileName) {
+        MyLogger.log("Application started.");
         ConsoleRunner consoleRunner = ConsoleRunnerFactory.create();
         boolean isAppInitiated = isInitiated(fileName);
         if (!isAppInitiated) {
             consoleRunner.runPrint("App not initiated! Please recheck your file name and run again!");
             return;
         }
+        MyLogger.log("Application initialized.");
         consoleRunner.runTitle();
         consoleRunner.runMenu();
         consoleRunner.runEnding();
+        MyLogger.log("Application ended.");
     }
 }

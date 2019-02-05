@@ -2,6 +2,7 @@ package com.fa2id.app;
 
 import com.fa2id.app.application.Application;
 import com.fa2id.app.application.CurrencyConverterApplication;
+import com.fa2id.app.log.MyLogger;
 
 /**
  * This is the main class which has the Main method in order to run the program.
@@ -18,6 +19,7 @@ public class MainClass {
      * @param args Argument is expected for this program. arg[0] must be the database file name like "database.txt"
      */
     public static void main(String[] args) {
+        MyLogger.log("Program started.");
         if (args.length > 0) {
             String fileName = args[0];
             Application application = new CurrencyConverterApplication();

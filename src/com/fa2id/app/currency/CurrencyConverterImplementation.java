@@ -1,5 +1,7 @@
 package com.fa2id.app.currency;
 
+import com.fa2id.app.log.MyLogger;
+
 import java.text.DecimalFormat;
 
 /**
@@ -23,6 +25,7 @@ public class CurrencyConverterImplementation implements CurrencyConverter {
      */
     @Override
     public double convert(final double amount, final String fromCurrencyId, final String toCurrencyId) {
+        MyLogger.log("Converting " + amount + " from " + fromCurrencyId + " to " + toCurrencyId);
         if (fromCurrencyId == null || fromCurrencyId.length() != 3) {
             throw new RuntimeException("Bad convertFromId (Null or not 3 characters). convertFromId must be 3 characters! " +
                     "convertFromId= " + fromCurrencyId);
@@ -41,6 +44,7 @@ public class CurrencyConverterImplementation implements CurrencyConverter {
         final double fromValueInUSD = fromCurrency.getValueInUSD();
         final double toValueInUSD = toCurrency.getValueInUSD();
         final double convertedAmount = convertAmount(formattedAmount, fromValueInUSD, toValueInUSD);
+        MyLogger.log("Converted.");
         return Double.valueOf(decimalFormat.format(convertedAmount));
     }
 

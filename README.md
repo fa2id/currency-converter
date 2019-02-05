@@ -20,7 +20,7 @@ XXX is the currency ID like USD. It must have three characters.
 @ is the separator between currency id and currency name.
 NNNN is the name of the currency and the number of characters is not important.
 $ is the separator between currency name and the value in USD.
-DDDDD is the the equivalent value of the currency in US Dollar. It can be written like 1 or 1.0 or whatever you like.
+DDDDD is the equivalent value of the currency in US Dollar. It can be written like 1 or 1.0 or whatever you like.
 <br>
 <hr>
 There logger is logging the application, and you can find the logs in CurrencyConverterLog.log after execution.

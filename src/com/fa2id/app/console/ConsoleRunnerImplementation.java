@@ -82,7 +82,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
         userInteraction.printOutput(Constants.PROMPT_TO_CURRENCY_TEXT);
         String toCurrencyId = userInteraction.getInput();
         double amount;
-        while (true){
+        while (true) {
             try {
                 userInteraction.printOutput(Constants.PROMPT_AMOUNT_TEXT);
                 final String amountString = userInteraction.getInput();
@@ -91,7 +91,7 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
                 final double amountFromString = Double.valueOf(amountString);
                 final DecimalFormat decimalFormat = new DecimalFormat("#.##");
                 amount = Double.valueOf(decimalFormat.format(amountFromString));
-            } catch (Exception e){
+            } catch (Exception e) {
                 userInteraction.printOutput(Constants.WRONG_INPUT_TEXT);
                 continue;
             }
@@ -103,8 +103,8 @@ public class ConsoleRunnerImplementation implements ConsoleRunner {
             userInteraction.printOutput(Constants.AFTER_CONVERSION_TEXT);
             userInteraction.printOutput(amount + " " + fromCurrencyId
                     + "= " + String.valueOf(convertedAmount) + " " + toCurrencyId);
-        } catch (Exception e){
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.out.println("EXCEPTION: " + e.getMessage());
         } finally {
             userInteraction.printOutput(Constants.LINE_SEPARATOR_TEXT);
         }

@@ -10,8 +10,12 @@ import com.fa2id.app.application.CurrencyConverterApplication;
 public class MainClass {
 
     public static void main(String[] args) {
-        String fileName = args[0];
-        Application application = new CurrencyConverterApplication();
-        application.start(fileName);
+        if (args.length > 0) {
+                String fileName = args[0];
+                Application application = new CurrencyConverterApplication();
+                application.start(fileName);
+        } else {
+            System.out.println("Please add the database filename as the first argument. (e.g. database.txt)");
+        }
     }
 }

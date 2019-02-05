@@ -14,7 +14,7 @@ public class CurrencyConverterApplication implements Application {
         try {
             return applicationInitializer.initializeApplication(fileName);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("EXCEPTION: " + e.getMessage());
         }
         return false;
     }
@@ -25,7 +25,7 @@ public class CurrencyConverterApplication implements Application {
         ConsoleRunner consoleRunner = new ConsoleRunnerImplementation();
         boolean isAppInitiated = isInitiated(fileName);
         if (!isAppInitiated) {
-            consoleRunner.runPrint("App not initiated! Please, run again!");
+            consoleRunner.runPrint("App not initiated! Please recheck you file name and run again!");
             return;
         }
         consoleRunner.runTitle();

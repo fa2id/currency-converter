@@ -21,9 +21,10 @@ public class FileReaderImplementation implements FileReader {
         try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
             stream.forEach(line -> stringBuilder.append("\n").append(line));
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("EXCEPTION: " + e.getMessage());
         }
-        stringBuilder.deleteCharAt(0);
+        if (stringBuilder.length() > 0)
+            stringBuilder.deleteCharAt(0);
         return stringBuilder.toString();
     }
 }

@@ -7,7 +7,10 @@ package com.fa2id.app.console;
 public interface ConsoleRunner {
 
     void runTitle();
+
     void runMenu();
+
     void runPrint(String text);
+
     void runEnding();
 }

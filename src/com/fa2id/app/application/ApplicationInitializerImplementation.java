@@ -55,8 +55,7 @@ public class ApplicationInitializerImplementation implements ApplicationInitiali
                     currencies.addToDataBase(currencyIdUpperCase, currencyName, valueInUSD);
                     savedData++;
                 } catch (Exception e) {
-//                    System.out.println(e.getMessage());
-                    e.printStackTrace();
+                    System.out.println("EXCEPTION: " + e.getMessage());
                 }
             }
         }
@@ -64,7 +63,7 @@ public class ApplicationInitializerImplementation implements ApplicationInitiali
     }
 
 
-    private boolean containsJustOne(String string, char character){
+    private boolean containsJustOne(String string, char character) {
         boolean seen = false;
         char chars[] = string.toCharArray();
         for (char c : chars) {

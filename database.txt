@@ -1,0 +1,40 @@
+EUR@Euro$1.1432141429
+GBP@British Pound$1.3040857210
+INR@Indian Rupee$0.0139365799
+AUD@Australian Dollar$0.7260128366
+CAD@Canadian Dollar$0.7629964066
+SGD@Singapore Dollar$0.7399898257
+CHF@Swiss Franc$1.0017808798
+MYR@Malaysian Ringgit$0.2446167601
+JPY@Japanese Yen$0.0091007998
+CNY@Chinese Yuan Renminbi$0.1482719123
+NZD@New Zealand Dollar$0.6898567435
+THB@Thai Baht$0.0319764646
+HUF@Hungarian Forint$0.0036030083
+AED@Emirati Dirham$0.2722940776
+HKD@Hong Kong Dollar$0.1274433364
+MXN@Mexican Peso$0.0523908296
+ZAR@South African Rand$0.0745003928
+PHP@Philippine Peso$0.0190966071
+SEK@Swedish Krona$0.1097893944
+IDR@Indonesian Rupiah$0.0000716504
+SAR@Saudi Arabian Riyal$0.2666666667
+BRL@Brazilian Real$0.2726606893
+TRY@Turkish Lira$0.1916121412
+KES@Kenyan Shilling$0.0099924391
+KRW@South Korean Won$0.0008913224
+EGP@Egyptian Pound$0.0565813246
+IQD@Iraqi Dinar$0.0008378012
+NOK@Norwegian Krone$0.1182048755
+KWD@Kuwaiti Dinar$3.2953916635
+RUB@Russian Ruble$0.0152569764
+DKK@Danish Krone$0.1531373358
+PKR@Pakistani Rupee$0.0071767925
+ILS@Israeli Shekel$0.2763508703
+PLN@Polish Zloty$0.2667893310
+QAR@Qatari Riyal$0.2747252747
+XAU@Gold Ounce$1314.3870572832
+OMR@Omani Rial$2.6007802341
+COP@Colombian Peso$0.0003239188
+CLP@Chilean Peso$0.0015323636
+TWD@Taiwan New Dollar$0.0324876122
